@@ -1,14 +1,18 @@
 # CNN_rock_paper_scissors_tf_Kaggle_data
 
-## Convolution
-A convolution is a filter that passes over an image, processes it, and extracts features that show a commonality in the image
 
-![CNN](https://codelabs.developers.google.com/codelabs/tensorflow-lab3-convolutions/img/fe75a23ae902b447.png)
+## What are convolutions? 
+* A convolution is a filter that passes over an image, processes it, and extracts the important features. 
+* Extract the important features, and blur the inessential features. This is called feature mapping. 
+
+![CNN](https://raw.githubusercontent.com/shakshisinghai/CNN_rock_paper_scissors_tf_Kaggle_data/master/Images/GetImage.png)
 
 ## Pooling
-As well as using convolutions, pooling helps us greatly in detecting features. The goal is to reduce the overall amount of information in an image while maintaining the features that are detected as present.There are a number of different types of pooling, example MAX pooling.
+* Pooling helps with detecting features 
+* Reduce the overall amount of information in an image while maintaining the features that are detected as present. 
+* Example :  Maximum (Max) Pooling. 
 
-![Pooling](https://codelabs.developers.google.com/codelabs/tensorflow-lab3-convolutions/img/872758df0d3f864a.png)
+![Pooling](https://raw.githubusercontent.com/shakshisinghai/CNN_rock_paper_scissors_tf_Kaggle_data/master/Images/GetImage%20(2).png)
 
 **We are using Kaggle as well as tensorflow dataset to train model for images of diverse hands in Rock/Paper/Scissors poses.**
 ### Labels
